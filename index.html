@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clube Atletico Litoral</title>
+    <link rel="icon" type="image/png" href="CAL.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/share?selection.family=Oswald:wght@200..700|Rajdhani:wght@300;400;500;600;700" rel="stylesheet">
+</head>
+<body>
+<h1 style="color: #fdfdfd; text-align: center; height: 120px; background-color: #c79e16;display: flex; align-items: center; justify-content: center;   border-top: 3px solid #fdfdfd;
+  border-bottom: 3px solid #fdfdfd;">
+CLUBE ATLETICO LITORAL</h1>
+
+<nav class="menu">
+<a href="https://www.futebol.com.br/" target="_blank">FUTEBOL</a>
+<a href="https://www.futebol.com.br/" target="_blank">INGRESSOS</a>
+<a href="https://www.futebol.com.br/" target="_blank">SOCIO-TORCEDOR</a>
+<a href="https://www.futebol.com.br/" target="_blank">HISTORIA</a>
+<a href="https://www.futebol.com.br/" target="_blank">ELENCO</a>
+<a href="https://www.futebol.com.br/" target="_blank">LOJA</a>
+<a href="https://www.futebol.com.br/" target="_blank">VOLEI</a>
+<a href="https://www.futebol.com.br/" target="_blank">BASQUETE</a>
+</nav>
+<br><br><hr>
+<h3 style="color: #fdfdfd; text-align: center;">GERAL</h3>
+<hr>
+<img src="CAL.png" alt="Clube Atletico Litoral" style="display: block; margin: 0 auto; max-width: 100%; height: 250px; border: none;">
+<figcaption style="text-align: center; color: #fdfdfd;">Clube Atletico Litoral Emblema</figcaption>
+<HR>
+<h3 style="color: #c79e16; text-align: center;">PRINCIPAIS NOTICIAS</h3>
+
+<div class="noticias">
+<article  class="card">
+    <h2 style="color: #fdfdfd; text-align: center;">Atletico Litoral é derrotado por 4 X 2 contra FC Cohab</h2>
+    <a href="" style="text-decoration: none;" >
+
+        <img src="jogoxcohab.png" alt="Atletico Litoral x Cohab" width="836" height="470" style="display: block; margin: 0 auto;" class="card">
+</a>
+
+    <figcaption style="color: #fdfdfd; text-align: center; margin-top: 15px;">Na tarde desta segunda feira, o Clube Atlético Litoral foi derrotado pelo FC Cohab por 4 a 2, em um jogo intenso disputado na Arena Cesac. Os gols do clube preto e amarelo foram marcados por Heitor e Lucas</p>
+
+    </article>
+
+<article class="card">
+    <h2 style="color: #fdfdfd; text-align: center;">Brilhando na Europa</h2>
+    <a href="" style="text-decoration: none;" >
+
+        <img src="henriquevitoriaguimaraes.png" alt="Henrique Lopes" width="836" height="470" style="display: block; margin: 0 auto;">   
+</a>
+    <figcaption style="color: #fdfdfd; text-align: center; margin-top: 15px;">Henrique Lopes, Ex jogador do Clube Atletico Litoral, se destaca pelo vitoria de guimarães com 14 tentos nos ultimos 27 jogos</p>
+    </article>
+ </div>
+ 
+  <h2>COMPETIÇÕES</h2>
+  
+
+  <select id="COMPETIÇÕES" onchange="mostrarClassificacao()">
+    <option value="Paulista">CAMPEONATO PAULISTA</option>
+    <option value="Baixada">BAIXADA CUP</option>
+    <option value="Interclasse">TORNEIO INTERCLASSE - FORTEC</option>
+  </select>
+
+  <div id="Paulista" class="tabela">
+    <table>
+      <tr><th style="color: #fdfdfd;">POS</th><th style="color: #fdfdfd;">EQUIPE</th><th style="color: #fdfdfd;">J</th><th style="color: #fdfdfd;">V</th><th style="color: #fdfdfd;">E</th><th style="color: #fdfdfd;">D</th><th style="color: #fdfdfd;">PTS</th></tr>
+      <tr><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">PALMEIRAS</td><td style="color: #fdfdfd;">8</td><td style="color: #fdfdfd;">6</td><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">19</td></tr>
+      <tr><td style="color: #fdfdfd;">2</td><td style="color: #fdfdfd;">ITAQUAQUECETUBA AC</td><td style="color: #fdfdfd;">8</td><td style="color: #fdfdfd;">6</td><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">19</td></tr>
+      <tr><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">FLAMENGO</td><td style="color: #fdfdfd;">9</td><td style="color: #fdfdfd;">5</td><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">16</td></tr>
+      <tr><td style="color: #fdfdfd;">4</td><td style="color: #fdfdfd;">ECUS</td><td style="color: #fdfdfd;">9</td><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">12</td></tr>
+      <tr><td style="color: #fdfdfd;">5</td><td style="color: #fdfdfd;">ATLETICO LITORAL</td><td style="color: #fdfdfd;">8</td><td style="color: #fdfdfd;">4</td><td style="color: #fdfdfd;">0</td><td style="color: #fdfdfd;">4</td><td style="color: #fdfdfd;">12</td></tr>
+    </table>
+  </div>
+
+   <div id="Baixada" class="tabela">
+    <table>
+      <tr><th style="color: #fdfdfd;">POS</th><th style="color: #fdfdfd;">EQUIPE</th><th style="color: #fdfdfd;">PTS</th></tr>
+      <tr><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">PALMEIRAS</td><td style="color: #fdfdfd;">79</td></tr>
+      <tr><td style="color: #fdfdfd;">2</td><td style="color: #fdfdfd;">SUZANO</td><td style="color: #fdfdfd;">64</td></tr>
+      <tr><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">SÃO VICENTE</td><td style="color: #fdfdfd;">59</td></tr>
+      <tr><td style="color: #fdfdfd;">4</td><td style="color: #fdfdfd;">GUARANI</td><td style="color: #fdfdfd;">56</td></tr>
+      <tr><td style="color: #fdfdfd;">5</td><td style="color: #fdfdfd;">ATLETICO LITORAL</td><td style="color: #fdfdfd;">54</td></tr>
+    </table>
+  </div>
+ 
+ 
+   <div id="Interclasse" class="tabela">
+    <table>
+      <tr><th style="color: #fdfdfd;">POS</th><th style="color: #fdfdfd;">EQUIPE</th></tr>
+      <tr><td style="color: #fdfdfd;">1</td><td style="color: #fdfdfd;">ATLETICO LITORAL</td></tr>
+      <tr><td style="color: #fdfdfd;">2</td><td style="color: #fdfdfd;">SETIMO A</td></tr>
+      <tr><td style="color: #fdfdfd;">3</td><td style="color: #fdfdfd;">NONO B</td></tr>
+      <tr><td style="color: #fdfdfd;">4</td><td style="color: #fdfdfd;">OITAVO A</td></tr>
+      <tr><td style="color: #fdfdfd;">5</td><td style="color: #fdfdfd;">SETIMO B</td></tr>
+    </table>
+  </div>
+ 
+   <script>
+function mostrarClassificacao() {
+
+var campeonatoSelecionado = document.getElementById("COMPETIÇÕES").value;
+      
+
+var tabelas = document.getElementsByClassName("tabela");
+for (var i = 0; i < tabelas.length; i++) {
+tabelas[i].style.display = "none";
+}
+      
+
+if (campeonatoSelecionado !== "") {
+ document.getElementById(campeonatoSelecionado).style.display = "block";
+}
+}
+</script>
+ 
+<section class="imagens">
+<div class="time">
+<h1 style="color: #fdfdfd; text-align: center;">TIME LITORAL</h2>
+<a href="voleicalpagina.html" style="text-decoration: none;" class="carde">
+<img src="voleical.jpeg" alt="Volei Atletico Litoral" width="425" height="450" style="display: block; margin: 0 auto;">
+<h2 style="color: #fdfdfd; text-align: center;" class="legenda">Volei</h2>
+</a>
+<a href="basquetecalpagina.html" style="text-decoration: none;"  class="carde">
+<img src="basquetecal.jpeg" alt="Basquete Atletico Litoral" width="425" height="450" style="display: block; margin: 0 auto;">
+<h2 style="color: #fdfdfd; text-align: center;" class="legenda">Basquete</h2>
+</a>
+<a href="futebolcalpagina.html" style="text-decoration: none;"  class="carde">
+<img src="futebolcal1.jpeg" alt="Futebol Atletico Litoral" width="425" height="450" style="display: block; margin: 0 auto;">
+<h2 style="color: #fdfdfd; text-align: center;" class="legenda">Futebol</h2>
+</a>
+<a href="alterofilismocalpagina.html" style="text-decoration: none;"  class="carde">
+<img src="alterofilismocal.jpeg" alt="Futebol Atletico Litoral" width="425" height="450" style="display: block; margin: 0 auto;">
+<h2 style="color: #fdfdfd; text-align: center;" class="legenda">Fisioculturismo</h2>
+</a>
+</div>
+<h1 style="color: #fdfdfd; display: flex;">CALTV</h1><hr>
+<div class="videos">
+<a href="https://www.youtube.com/watch?v=5g0k1J6j8xM" target="_blank" style="text-decoration: none;" >
+<img src="caltvprincipal.png" alt="CALTV" width="475" height="360">
+<h2 display: flex;">INTERCLASSE 2026 - CAL 5 X 3 NONO B</h2>
+<p style="color: #9b9a98; display: flex;">Atletico vence Nono B por 5 x 3 com atuação brilhante de GH <br>
+  e avança para a final do interclasse</p>
+</a>
+<a href="https://www.youtube.com/watch?v=5g0k1J6j8xM" target="_blank" style="text-decoration: none;">
+<img src="caltv2.png" alt="Play" width="475" height="360">
+<h2  display: flex;>INTERCLASSE 2025 - CAL 17 X OITAVO B</h2>
+<p style="color: #9b9a98; display: flex;">Atletico vence Oitavo B por 17 x 0 em um classico historico</p>
+</a>
+<a href="https://www.youtube.com/watch?v=5g0k1J6j8xM" target="_blank" style="text-decoration: none;">
+<img src="caltv4.png" alt="Play" width="475" height="360">
+<h2 display: flex;>INTERCLASSE 2026 - CAL 9 X 1 OITAVO AB</h2>
+<p style="color: #9b9a98; display: flex;">Após susto nos primeiros segundos, atletico se recupera <br>
+   e goleia por 9 x 1 o Oitavo AB</p>
+</a>
+</div>
+<h1 style="color: #fdfdfd; display: flex;">PICTURES</h1><hr>
+<div class="pictures">
+<a href="calhistoriapagina.html" target="_blank" style="text-decoration: none;">
+<img src="calfundacao1.jpeg" alt="Picture 1" width="450" height="400">
+<h2 style="color: #ffffff; text-align: center;"> Primeiro treino do clube - <br> Porto pequeno - Praia Grande/SP </h2>
+<p style="color: #9b9a98; text-align: center;"> Foto: Gustavo Mendes/Clube Atletico Litoral</p>
+</a>
+<a href="calhistoriapagina.html" target="_blank" style="text-decoration: none;">
+<img src="calfundacao2.jpeg" alt="Picture 2" width="450" height="400">
+<h2 style="color: #ffffff; text-align: center;"> Foto de fundação do clube - <br> Praia Grande/SP </h2>
+<p style="color: #9b9a98; text-align: center;"> Foto: Gustavo Mendes/Clube Atletico Litoral</p>
+</a>
+<a href="calhistoriapagina.html" target="_blank" style="text-decoration: none;">
+<img src="calfundacao3.jpeg" alt="Picture 3" width="450" height="400">
+<h2 style="color: #ffffff; text-align: center;"> Divulgação da fornecedora puma - <br> CT Vinicius Furlaneto - Praia Grande/SP </h2>
+<p style="color: #9b9a98; text-align: center;"> Foto: Gustavo Mendes/Clube Atletico Litoral</p>
+</a>
+</div>
+
+<div class="patrociniomasters">
+<a href="">
+<img src="betano.png" alt="betano" height="135" width="375">
+</a>
+<a href="">
+<img src="puma.png" alt="betano" height="135" width="375">
+</a>
+<img src="sociotorcedorcal.png" alt="betano" height="135" width="375">
+</a>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHR7XOf7FhIrY2RuB8mrn6nmh8aKdWMCT5XlkrEouiyCvh5K4Vxq7j9g&s=10" alt="betano" height="135" width="375">
+</a>
+</div>
+</section>                 
+<footer>
+<div class="rodape">
+<h2 style="color: bisque ;">CT Vinicius Furlaneto - Praia Grande/SP</h2> 
+<p style="color: bisque ;">R. Paulo Sérgio Garcia, s/n - Sítio do Campo, - 11726-010</p>
+
+<h2 style="color: bisque ;">Sede Rafael Cavalheiro - Praia Grande/SP</h2> 
+<p style="color: bisque ;">R. Indaiá, 119 - Guilhermina, - 11701-440</p>
+</div>
+</footer>
+
+</body>
+</html> 

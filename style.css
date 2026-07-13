@@ -181,7 +181,7 @@ img {
 
 .pictures {
 display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 45px;
   padding: 20px;
@@ -207,3 +207,21 @@ flex-wrap: wrap;
 text-align: center;
 }
 
+.noticiasfutebol{
+display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+   gap: 35px;
+  padding: 20px;
+}
+
+.noticiasfutebol img{
+  border-radius: 0;
+}
+
+.rodape2{
+background-color: #141414;
+padding: 20px;
+flex-wrap: wrap;
+text-align: center;
+}

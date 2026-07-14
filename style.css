@@ -233,3 +233,41 @@ text-align: center;
   justify-content: center
   
 }
+
+.jogosingressos{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  padding: 20px;
+  margin-top: 55PX;
+}
+
+.socioingressos {
+    background-color: #c4890a;
+    display: flex;            
+    flex-direction: row;      
+    align-items: center;      
+    gap: 20px;                
+    padding: 20px;
+    margin: 60px auto;
+    border-radius: 16px;
+    margin-top: 58px;
+}
+
+.socioingressos a {
+    display: flex;           
+    align-items: center;    
+    gap: 60px;              
+    text-decoration: none;   
+}
+
+.socioingressos h1{
+  background-color: #050000;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.areadeingressos{
+ background-image: linear-gradient(to right, #111111, #0e0d0d);
+}

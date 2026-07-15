@@ -271,3 +271,45 @@ display: flex;
 .areadeingressos{
  background-image: linear-gradient(to right, #111111, #0e0d0d);
 }
+
+.sociopag{
+  background-image: url(backgroundsocios.png);
+   background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed
+}
+
+.sociosplanos{
+   display: flex;
+   justify-content: center;  
+   gap: 40px;
+   margin-top: 100px;
+}
+
+.sociosplanos h2{
+  color: #ffffff;
+}
+
+.rodapesocios{
+background-color: #141414;
+padding: 20px;
+flex-wrap: wrap;
+text-align: center;
+margin-top: 150px;
+}
+
+.jasocio h3{
+  text-align: center;
+   height: 50PX; 
+   background-color: black;
+   display: flex; 
+   align-items: center; 
+   justify-content: center;
+   color: #ffffff;
+     transition: color 0.1s ease;
+}
+
+.jasocio h3:hover{
+   color: #c79e16;
+}

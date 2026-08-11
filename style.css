@@ -313,3 +313,17 @@ margin-top: 150px;
 .jasocio h3:hover{
    color: #c79e16;
 }
+
+.lide {
+  background-color: #c79e16;
+  border-radius: 10px;
+}
+
+.idolos{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  padding: 20px;
+  margin-top: 55PX;
+}

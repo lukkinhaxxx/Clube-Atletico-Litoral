@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clube Atletico Litoral</title>
+    <link rel="icon" type="image/png" href="CAL.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/share?selection.family=Oswald:wght@200..700|Rajdhani:wght@300;400;500;600;700" rel="stylesheet">
+  </head>
+<body>
+<header>
+<h1 style="color: #fdfdfd; text-align: center; height: 120px; background-color: #c79e16;display: flex; align-items: center; justify-content: center;   border-top: 3px solid #fdfdfd;
+  border-bottom: 3px solid #fdfdfd;">
+CLUBE ATLETICO LITORAL</h1>
+<div class="redessociaiselogin">
+<a href="instagram.com" target="_blank">
+<img src="https://img.icons8.com/ios11/512/FFFFFF/instagram-new.png" width="20" height="20">
+</a>
+<a href="X.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/X_icon.svg/960px-X_icon.svg.png" width="20" height="20">
+</a>
+<a href="instagram.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="20" height="20">
+</a>
+<a href="instagram.com" target="_blank">
+<img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/450/small/tiktok-icon-free-png.png" width="20" height="20">
+</a>
+</div>
+<a href="login.html" target="_blank" style="text-decoration: underline; color: #ffffff;" color >
+<p style="color: rgb(255, 255, 255); text-align: center;">ENTRAR</p>
+</a>
+</header>
+
+<nav class="menu">
+<a href="futebolcalpagina.html">FUTEBOL</a>
+<a href="ingressoscal.html" >INGRESSOS</a>
+<a href="sociocalpagina.html" >SOCIO-TORCEDOR</a>
+<a href="https://www.futebol.com.br/" >HISTORIA</a>
+<a href="https://www.futebol.com.br/" >ELENCO</a>
+<a href="https://www.futebol.com.br/" >LOJA</a>
+<a href="https://www.futebol.com.br/" >VOLEI</a>
+<a href="https://www.futebol.com.br/" >BASQUETE</a>
+</nav>
+<br><br>
+
+<header class="cavalosaliente">
+<h3>Nosso elenco é repleto de talentos e craques geracionais em todos os esportes, sendo bi campeão do interclasse e de diversos outros titulos</h3>
+</header>
+
+<main>
+<br><br>
+<div class="elenco-select">
+  <select id="ELENCO" onchange="mostrarElenco()">
+    <option value="GOLEIROS">GOLEIROS</option>
+    <option value="DEFENSORES">DEFENSORES</option>
+    <option value="MEIO-CAMPISTAS">MEIO-CAMPISTAS</option>
+    <option value="ATACANTES">ATACANTES</option>
+    <option value="BASQUETE">BASQUETE</option>
+    <option value="VOLEI-MASCULINO">VOLEI MASCULINO</option>
+    <option value="VOLEI-FEMININO">VOLEI FEMININO</option>
+  </select>
+</div>
+
+  <div class="carrossel" style="position: relative;">
+    <button class="seta-carrossel esquerda" onclick="passarElenco(-1)">&#10094;</button>
+    <button class="seta-carrossel direita" onclick="passarElenco(1)">&#10095;</button>
+    
+    <div class="elencoContainer" id="GOLEIROS">
+        <img src="EP1.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="NX69.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="S2.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="K91.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+    
+    <div class="elencoContainer" id="DEFENSORES" style="display: none;">
+        <img src="JB4.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="PS45.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="RC2.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="BB5.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="ED13.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="DG6.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="MA16.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+    
+    <div class="elencoContainer" id="MEIO-CAMPISTAS" style="display: none;">
+        <img src="VL80.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="BD15.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="AS18.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="LM66.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="GH10.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="H8.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="LM14.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+    
+    <div class="elencoContainer" id="ATACANTES" style="display: none;">
+        <img src="BB26.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="AC27.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="GS11.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="GS77.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="BB9.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="JS22.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="ES17.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="PK99.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="DJ21.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="LD7.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+    
+    <div class="elencoContainer" id="BASQUETE" style="display: none;">
+        <img src="GH6.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="DV7.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="ET77.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="JG15.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="CG23.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+    
+
+    <div class="elencoContainer" id="VOLEI-MASCULINO" style="display: none;">
+        <img src="GC8.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="GP57.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="GG20.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="B12.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+    
+    <div class="elencoContainer" id="VOLEI-FEMININO" style="display: none;">
+        <img src="MC14.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="MP7.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="MP7 (2).png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="LV5.png" alt="Imagem 1" height="700px" width="520px" class="card">
+        <img src="G9.png" alt="Imagem 1" height="700px" width="520px" class="card">
+    </div>
+  </div>
+</main>
+</body>
+
+<footer>
+<div class="rodape">
+<h2 style="color: rgb(255, 255, 255) ;">CT Vinicius Furlaneto - Praia Grande/SP</h2> 
+<p style="color: rgb(255, 255, 255) ;">R. Paulo Sérgio Garcia, s/n - Sítio do Campo, - 11726-010</p>
+
+<h2 style="color: rgb(255, 255, 255) ;">Sede Rafael Cavalheiro - Praia Grande/SP</h2> 
+<p style="color: rgb(255, 255, 255) ;">R. Indaiá, 119 - Guilhermina, - 11701-440</p>
+</div>
+
+<a href="https://instagram.com" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+</a>
+</html>
+
+<script>
+function passarElenco(direcao) {
+    const idCategoriaAtiva = document.getElementById('ELENCO').value;
+    
+    const trilho = document.getElementById(idCategoriaAtiva);
+    
+    if (trilho) {
+        const card = trilho.querySelector('.card');
+        if (card) {
+            const larguraCard = card.offsetWidth;
+            trilho.scrollLeft += direcao * larguraCard;
+        }
+    }
+}
+
+function mostrarElenco() {
+    var elencoSelecionado = document.getElementById("ELENCO").value;
+
+    var categorias = document.getElementsByClassName("elencoContainer");
+
+    for (var i = 0; i < categorias.length; i++) {
+        categorias[i].style.display = "none";
+    }
+
+    if (elencoSelecionado) {
+        document.getElementById(elencoSelecionado).style.display = "flex"; 
+    }
+}
+</script>
